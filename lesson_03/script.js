@@ -10,22 +10,29 @@
     } руб`
   );
 }
+
 {
-  const nameProduct = "сметана";
-  const productQuantity = 50;
-  const productCategory = "молочные продукты";
-  const productPrice = 30;
+  const nameProduct = prompt("Введите название продукта");
+  const productQuantity = +prompt("Введите количество продукта");
+  const productCategory = prompt("Введите категорию  продукта");
+  const productPrice = +prompt("Введите цену за единицу продукта");
+
   console.log(
-    `Общая сумма товара из категории ${productCategory}, а именно ${nameProduct} равна ${
-      productQuantity * productPrice
-    } руб`
+    "Тип данных nameProduct (Наименование продукта): ",
+    typeof nameProduct
   );
-}
-{
-  const nameProduct = "творого";
-  const productQuantity = 150;
-  const productCategory = "молочные продукты";
-  const productPrice = 20;
+  console.log(
+    "Тип данных productQuantity (количество продукта): ",
+    typeof productQuantity
+  );
+  console.log(
+    "Тип данных productCategory (категория продукта): ",
+    typeof productCategory
+  );
+  console.log(
+    "Тип данных productPrice (цена продукта):  ",
+    typeof productPrice
+  );
   console.log(
     `Общая сумма товара из категории ${productCategory}, а именно ${nameProduct} равна ${
       productQuantity * productPrice
