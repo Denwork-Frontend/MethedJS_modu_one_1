@@ -8,7 +8,6 @@ if (rain == 1) {
 } else {
   console.log(`rain = ${rain}. Дождя нет!`);
 }
-
 // Третья задача
 
 const mathematics = +prompt("Введите количество балов по математике");
