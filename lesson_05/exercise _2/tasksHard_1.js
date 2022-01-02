@@ -1,6 +1,6 @@
 //Задание дополнительное - первая задача
 
-"use strict";
+/*"use strict";
 
 const nod = (n, m) => {
   if (m !== 0) {
@@ -11,7 +11,7 @@ const nod = (n, m) => {
 };
 let numb1 = +prompt("Введите первое число");
 let numb2 = +prompt("Введите второе число");
-console.log(`НОД чисел ${numb1} и ${numb2} будет:  ${nod(numb1, numb2)}`);
+console.log(`НОД чисел ${numb1} и ${numb2} будет:  ${nod(numb1, numb2)}`);*/
 
 /*Найти НОД для 30 и 18.
 30 / 18 = 1 (остаток 12)
