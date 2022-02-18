@@ -10,6 +10,14 @@
     } руб`
   );
 }
+
+console.log(
+  `Общая сумма товара из категории ${productCategory}, а именно ${nameProduct} равна ${
+    productQuantity * productPrice
+  } руб`
+);
+
+/* 
 {
   const nameProduct = "сметана";
   const productQuantity = 50;
@@ -20,4 +28,4 @@
       productQuantity * productPrice
     } руб`
   );
-}
+} */
